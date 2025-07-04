@@ -1,4 +1,4 @@
-name: Grammar Check (PT)
+name: Grammar Check (PT-BR)
 
 on: [pull_request]
 
@@ -7,9 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Run LanguageTool
-        uses: rewritten/languagetool-action@v1
+      - name: Run LanguageTool via reviewdog
+        uses: reviewdog/action-languagetool@v1.22.0
         with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           language: pt-BR
-          files: |
-            **/*.md
+          patterns: '**/*.md **/*.txt **/*.rst'
+          reporter: github-pr-review
+          level: warning
