@@ -1,0 +1,28 @@
+site_name: SystemCore Brazil Blog
+
+site_description: an example blog set up following the tutorial
+site_url: http://www.test.com
+
+nav:
+  - Página principal: index.md
+  - Blog: 
+    - Blog: blog/index.md
+  - Sobre: about/index.md
+  
+
+theme:
+  language: pt-BR
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+
+plugins:
+  - search
+  - blog
