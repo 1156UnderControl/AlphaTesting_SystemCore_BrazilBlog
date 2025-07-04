@@ -1,0 +1,15 @@
+name: Grammar Check (PT)
+
+on: [pull_request]
+
+jobs:
+  grammar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run LanguageTool
+        uses: rewritten/languagetool-action@v1
+        with:
+          language: pt-BR
+          files: |
+            **/*.md
