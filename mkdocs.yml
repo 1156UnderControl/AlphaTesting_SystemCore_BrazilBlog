@@ -1,6 +1,6 @@
-site_name: SystemCore Brazil Blog
+site_name: SystemCore 1156 Blog
 
-site_description: an example blog set up following the tutorial
+site_description: Blog do Alpha Testing do SystemCore
 site_url: http://www.test.com
 
 nav:
@@ -11,6 +11,7 @@ nav:
   
 
 theme:
+  logo: https://avatars.githubusercontent.com/u/24967810?s=96&v=4
   language: pt-BR
   name: material
   palette:
