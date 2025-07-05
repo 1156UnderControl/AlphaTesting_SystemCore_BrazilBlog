@@ -5,4 +5,4 @@ authors:
   - under
 ---
 
-# Semana 1
+# Semana 1 - Chegada do SystemCore!
