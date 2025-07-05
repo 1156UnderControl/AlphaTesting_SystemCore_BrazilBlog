@@ -30,6 +30,7 @@ theme:
     - navigation.instant
     - navigation.tabs
     - toc.follow
+  custom_dir: overrides
 
 extra:
   consent:
