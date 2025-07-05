@@ -6,3 +6,7 @@ authors:
 ---
 
 # Semana 1 - Chegada do SystemCore!
+
+
+
+<!-- more -->

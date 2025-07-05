@@ -1,7 +1,7 @@
 site_name: SystemCore 1156 Blog
 
 site_description: Blog do Alpha Testing do SystemCore
-site_url: http://www.test.com
+site_url: http://1156undercontrol.github.io/
 
 nav:
   - Página principal: index.md
@@ -29,6 +29,7 @@ theme:
   features:
     - navigation.instant
     - navigation.tabs
+    - toc.follow
 
 extra:
   consent:
@@ -41,7 +42,18 @@ extra:
   analytics:
     provider: google
     property: G-Q39SSS6SNG
-
+  extra_css:
+    - styles/extra.css
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/1156UnderControl
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/undercontrol1156/
+  generator: false
 plugins:
   - search
-  - blog
+  - blog:
+      archive: false
+
+
+copyright: Copyright &copy; 2025 UnderControl
