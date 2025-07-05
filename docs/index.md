@@ -1,6 +1,9 @@
 ---
 title: "Página principal"
+hide:
+  - navigation
 ---
+
 
 # Bem-vindo ao Blog de Testes do System Core — Equipe 1156
 
