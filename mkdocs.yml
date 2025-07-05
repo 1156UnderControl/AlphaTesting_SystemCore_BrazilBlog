@@ -12,17 +12,35 @@ nav:
 
 theme:
   logo: https://avatars.githubusercontent.com/u/24967810?s=96&v=4
+  favicon: https://avatars.githubusercontent.com/u/24967810?s=96&v=4
   language: pt-BR
   name: material
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: indigo
-      accent: indigo
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: indigo
-      accent: indigo
+    - scheme: default
+      primary: dark-blue
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tabs
+
+extra:
+  consent:
+    title: Cookie consent
+    description: >- 
+      Nós usamos cookies para reconhecer suas visitas repetidas e preferências, 
+      bem como para medir a eficácia da nossa documentação e verificar se os usuários 
+      encontram o que estão buscando. Com o seu consentimento, você nos ajuda a melhorar 
+      nossa documentação.
+  analytics:
+    provider: google
+    property: G-Q39SSS6SNG
 
 plugins:
   - search
