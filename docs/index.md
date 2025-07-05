@@ -27,7 +27,3 @@ O Alpha Test First Wave permite que equipes selecionadas experimentem funcionali
 Para acompanhar nossos relatos e atualizações, acesse a seção [Blog](blog/index.md).
 
 ---
-
-**Equipe 1156 — Under Control**
-
-![Logo da Equipe](assets/logo.png)
